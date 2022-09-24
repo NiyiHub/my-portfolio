@@ -108,8 +108,8 @@
   <section class="py-5 text-center container">
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light">Hi, I'm Black.</h1>
-        <p class="lead text-muted">Hey, Welcome to my portfolio. I write python codes, check out some of my work below.</p>
+        <h1 class="fw-light">Hi, call me Niyi Black.</h1>
+        <p class="lead text-muted">Welcome to my portfolio. I write python codes, check out some of my work below.</p>
         <p>
           <a href="mailto:niyiblack@outlook.com" class="btn btn-primary my-2">Email</a>
         </p>
@@ -129,6 +129,9 @@
             <img class="card-img-top" src="{{ project.image.url }}" />
             <div class="card-body">
               <p class="card-text">{{ project.description }}</p>
+              <a href="{{ project.project_url }}"> 
+                <h4>{{ project.title }}</h4>
+              </a>
             </div>
           </div>
         </div>
